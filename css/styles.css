@@ -1,0 +1,97 @@
+/* GENERAL PAGE STYLE */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------------------- */
+/* TOP NAVIGATION BAR     */
+/* ---------------------- */
+.top-bar {
+    background-color: #b6dfad;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-items button {
+    padding: 6px 14px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+}
+
+.profile {
+    width: 35px;
+    height: 35px;
+    background-color: #d2c9ff;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+/* ---------------------- */
+/* MAIN CONTENT LAYOUT    */
+/* ---------------------- */
+.main {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+    align-items: stretch;  /* ← Add this */
+}
+
+/* LEFT COLUMN */
+.applicants {
+    width: 55%;
+}
+
+.card {
+    background-color: #e8e8e8;
+    padding: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .left {
+    width: 70%;
+}
+
+.card .right {
+    width: 120px;
+    background-color: #d1d1d1;
+}
+
+/* RIGHT COLUMN */
+.listing {
+    width: 40%;
+}
+
+.listing-box {
+    background-color: #d1d1d1;
+    padding: 20px;
+}
+html, body {
+    height: 100%;
+}
+
+.listing {
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-box {
+    flex: 1;   /* makes it stretch vertically */
+}
